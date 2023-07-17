@@ -1,0 +1,33 @@
+.Container{
+  padding-bottom: var(--spacing-between-sections);
+
+  font-family: var(--font-space-roboto);
+  text-align: center;
+  color: #ffffff;
+}
+
+.Container h3 {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+}
+
+.Container a {
+  margin-top: 32px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Container a p {
+  font-weight: 700;
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+.Container a img {
+  margin-top: 4px;
+  margin-left: 6px;
+}

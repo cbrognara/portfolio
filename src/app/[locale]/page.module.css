@@ -1,0 +1,5 @@
+.Home {
+  background-color: #000;
+  margin: auto;
+  max-width: var(--app-max-width);
+}

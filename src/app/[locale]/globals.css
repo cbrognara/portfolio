@@ -1,0 +1,26 @@
+:root{
+  --app-max-width: 960px; 
+  --spacing-between-sections: 120px;
+  --spacing-between-titles: 48px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background: #000;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

@@ -1,0 +1,78 @@
+{
+  "Common": {
+    "localesDropdownAltImage": "Ícone para expandir e ver linguagens disponíveis para tradução",
+    "countryFlag": "Bandeira do Brasil representando a lingua portuguesa",
+    "githubIconAlt": "Link para GitHub de Camila",
+    "linkedinIconAlt": "Link para o Linkedin de Camila",
+    "instagramIconAlt": "Link para o Instagram de Camila",
+    "whatsappIconAlt": "Link para o WhatsApp de Camila",
+    "profilePhotoAlt": "Foto de perfil de Camila",
+    "projects": {
+      "filmapp": {
+        "coverAlt": "Capa do filmapp com telas do app",
+        "title": "Site de hospedagem de filmes",
+        "detailedDescription": "Site de hospedagem de filmes com barra de pesquisa pelo título e lista de favoritados",
+        "whatIDidInThisProjectDescription": "A lista de filmes foi conectada com API externa, de forma a exibir título e poster disponíveis. Na barra de busca possibilitei que a pesquisa fosse simples considerando trechos do título, maísculas e minúsculas. Ainda existe a possibilidade do usuário favoritar e remover filmes de sua lista pessoal."
+      },
+      "lemondesignsystem": {
+        "coverAlt": "Design system",
+        "title": "Design System da Lemon Energy",
+        "detailedDescription": "Em um case para construção de design system construí os componentes de forma a serem reutilizáveis em sua mínima forma, aceitando cores, posicionamento de ícones e animações diferentes de acordo com os parâmetros enviados."
+      },
+      "comparedupe": {
+        "coverAlt": "Capa do Compare-Dupe com telas do site",
+        "title": "Site para comparação de dupes de maquiagem",
+        "detailedDescription": "",
+        "whatIDidInThisProjectDescription": ""
+      }
+    },
+    "arrowRightAlt": "Seta para direita",
+    "seeDetails": "Ver detalhes",
+    "seeMoreOnLinkedin": "Veja mais recomendações",
+    "name": "Olá, eu sou Camila",
+    "role": "Front End",
+    "developer": "Desenvolvedora",
+    "portfolio": "Portfólio",
+    "portfolioArrowDownAlt": "Ícone de flecha apontando para baixo",
+    "exploreProjects": "Explore os projetos em que trabalhei",
+    "personalProjects": "Pessoais",
+    "intodesignProjects": "Into Design",
+    "genesisbankProjects": "Genesis Bank",
+    "recommendations": "Recomendações",
+    "linkedinSaleHelpaProfilePhotoAlt": "Foto de perfil do Random",
+    "linkedinSaleHelpaRole": "Desenvolvedor Front-End na Random",
+    "linkedinSaleHelpaRecommendation": "<p>lorem ipsum difnieufnijnc</p>",
+    "locales": {
+      "pt": "português",
+      "en": "inglês"
+    },
+    "mainStack": "Stack Principal",
+    "reactIconAlt": "Ícone do React",
+    "nextIconAlt": "Ícone do Next.js",
+    "nodeIconAlt": "Ícone do Node.js",
+    "typescriptIconAlt": "Ícone do Typescript",
+    "javascriptIconAlt": "Ícone do Javascript",
+    "doYouNeedADeveloper": "precisa de um dev?",
+    "letsWorkTogether": "Vamos trabalhar juntos",
+    "actualOccupationTitle": "ocupação atual",
+    "actualOccupation": "Desenvolvedor Front End na Genesis Bank",
+    "contact": "Contato",
+    "goBackIconAlt": "Ícone de voltar",
+    "goBack": "voltar",
+    "artifacts": "Artefatos",
+    "apiSourceCode": "Código fonte da API",
+    "appSourceCode": "Código fonte do APP",
+    "siteSourceCode": "Código fonte do site",
+    "design": "Arquivos de design",
+    "demo": "Demonstração",
+    "whatIDidInThisProject": "Qual foi o meu papel nesse projeto?",
+    "whatsappMessage": "Olá Camila, encontrei seu número em seu site de portfólio, podemos conversar?",
+    "readMore": "ler mais",
+    "readLess": "ler menos",
+    "noProjectsYet": "Vou adicionar meus trabalhos dessa empresa em breve",
+    "downloadCVIconAlt": "Ícone de download",
+    "downloadCV": "Baixar Currículo",
+    "availableIconAlt":"Available icon",
+    "openToWork": "disponível para entrevistas"
+  }
+}

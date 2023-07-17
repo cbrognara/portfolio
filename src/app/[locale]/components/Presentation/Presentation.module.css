@@ -1,0 +1,118 @@
+.Presentation {
+  padding: 0px 32px 40px;
+  height: 745px;
+}
+
+.SocialsAndProfilePhotoGroup {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Socials {
+  margin-bottom: 70px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Socials a:not(:last-of-type) {
+  margin-bottom: 16px
+}
+
+.ProfilePhoto {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.ProfilePhotoImage {
+  margin-left: 80px;
+
+  max-width: 239px;
+  max-height: 275.68px;
+}
+
+.NameAndRoleGroup {
+  margin-right:8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.Name {
+  margin-top: 48px;
+
+  text-align: right;
+
+  font-family: var(--font-space-roboto);
+  font-weight: 500;
+  font-size: 40px;
+  color: #fff;
+}
+
+.Role {
+  margin-top: 8px;
+
+  text-align: right;
+  font-family: var(--font-space-roboto);
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+}
+
+.Role span {
+  padding-right: 6px;
+  padding-left: 6px;
+  background-image: url('/images/brush.png');
+  background-repeat: no-repeat;
+  background-size: 130px;
+  background-position: -1px;
+}
+
+@media (min-width: 960px) {
+  .Presentation {
+    height: 100vh;
+    padding: 16% 0px 40px;
+  }
+
+  .ProfilePhoto {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .ProfilePhotoImage {
+    margin-left: 40px;
+    max-width: unset;
+    max-height: unset;
+  }
+
+  .Socials {
+    margin-bottom: 0;
+    margin-top: 64px;
+  }
+
+  .Name {
+    font-size: 64px;
+    max-width: 437px;
+  }
+
+  .Role {
+    font-size: 24px;
+    margin-left: 5px;
+  }
+
+  .Role, .Name {
+    text-align: left;
+  }
+
+  .NameAndRoleGroup {
+    align-items: flex-start;
+  }
+
+  .Role span {
+    padding-left: 9px;
+    background-size: 132px;
+  }
+}

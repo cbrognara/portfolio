@@ -1,0 +1,225 @@
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg)
+  }
+
+  25% {
+    transform: rotate(90deg)
+  }
+
+  50% {
+    transform: rotate(180deg)
+  }
+
+  75% {
+    transform: rotate(270deg)
+  }
+
+  100% {
+    transform: rotate(360deg)
+  }
+}
+
+.Container{
+  position: relative;
+
+  margin: auto;
+  max-width: var(--app-max-width);
+}
+
+.PortfolioLink {
+  position: absolute;
+  top: -200px;
+  margin: auto;
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.PortfolioLink h3 {
+  margin-bottom: 16px;
+  font-family: var(--font-space-roboto);
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.ExploreProjects {
+  margin-bottom: 72px;
+
+  font-family: var(--font-space-roboto);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Companies {
+  margin: 0 24px 48px;
+  
+  cursor: grab;
+  overflow: visible;
+}
+
+.Companies ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Companies ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: var(--font-space-roboto);
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Companies ul li span:first-of-type {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 4px solid #EC4392;
+  border-radius: 50%;
+  scale: 0.8;
+}
+
+.Companies ul li span:last-of-type {
+  margin-top: 2px;
+}
+
+.Companies span:first-of-type::after {
+  content: "";
+  z-index: -1;
+
+  position: absolute;
+  height: 105%;
+  width: 105%;
+
+  background-color: white;
+  border-radius: 50%;
+}
+
+.Companies ul li span:first-of-type img {
+  border-radius:50%;
+}
+
+.SelectedCompany span:first-of-type {
+  scale: 1 !important;
+  transition: scale 0.4s;
+  position: relative;
+  z-index: 1;
+}
+
+
+.SelectedCompany span:first-of-type::before {
+  content: "";
+  z-index: -1;
+
+  position: absolute;
+  height: 111%;
+  width: 111%;
+
+  background-image: linear-gradient(#EC4392,
+    #E8569A,
+    #F284B8,
+    #EB9BC0,
+    #E1B3C9,
+    #E1B3C9,
+    #DDCDD5,
+    #DDCDD5,
+    #EB9BC0,
+    #F284B8,
+    #E8569A,
+    #EC4392); 
+  border-radius: 50%;
+  animation: rotate 2s linear infinite; 
+}
+
+
+.SelectedCompany span:first-of-type img {
+  position: relative;
+  z-index: 1;
+}
+
+
+.ScrollDowns {
+  width: min-content;
+  height: 42px;
+}
+
+.Mousey {
+  width: 2px;
+  padding: 8px 10px;
+  height: 24px;
+  border: 1.5px solid #ffffff;
+  border-radius: 25px;
+  opacity: 1;
+  box-sizing: content-box;
+}
+
+.Scroller {
+  margin: auto;
+  width: 2px;
+  height: 8px;
+  border-radius: 25%;
+  background-color: #ffffff;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15, .41, .69, .94);
+  animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 0;
+  }
+
+  10% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(15px);
+    opacity: 0;
+  }
+}
+
+@media (min-width: 960px) {
+  .Companies {
+    margin-left: unset;
+    margin-right: unset;
+    cursor: unset;
+  }
+
+  .Companies ul {
+    justify-content: center;
+  }
+  
+  .Companies ul li {
+    cursor: pointer;
+  }
+
+  .Companies ul li:not(:last-of-type) {
+    margin-right: 16px;
+  }
+
+  .ExploreProjects {
+    margin-bottom: 80px;
+
+    font-size: 24px;
+  }
+}

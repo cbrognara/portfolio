@@ -1,0 +1,72 @@
+.Border {
+  width: 100%;
+  border-top: 0.5px solid #EC4392;
+}
+
+.Container {
+  margin: auto;
+  padding: 40px 32px 80px 32px;
+
+  width: 100%;
+
+  max-width: var(--app-max-width);
+  font-family: var(--font-space-roboto);
+  font-weight: 400;
+  background-color: #000000;
+  color: #ffffff;
+} 
+
+.Container > div {
+  margin-bottom: 40px;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+.Container > div > h2 {
+  font-weight: 700;
+  font-size: 20px;
+  
+  color: #ffffff;
+}
+
+.Container h3 {
+  margin-bottom: 8px;
+
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+}
+
+.Container h3:last-of-type {
+  margin-top: 40px;
+}
+
+.Container address {
+  margin-bottom: 40px;
+
+  font-style: normal;
+  text-decoration: underline;
+}
+
+.Container address p:first-of-type {
+  margin-bottom: 8px;
+}
+
+.Socials {
+  width: min-content;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Socials a:not(:first-of-type) {
+  margin-left: 16px;
+}
+
+.Socials a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

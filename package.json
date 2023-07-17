@@ -1,5 +1,5 @@
 {
-  "name": "model",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,14 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "20.4.2",
-    "@types/react": "18.2.15",
-    "@types/react-dom": "18.2.7",
-    "eslint": "8.45.0",
-    "eslint-config-next": "13.4.10",
-    "next": "13.4.10",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@formatjs/intl-localematcher": "^0.2.32",
+    "@types/negotiator": "^0.6.1",
+    "@types/node": "20.2.5",
+    "@types/react": "18.2.8",
+    "@types/react-dom": "18.2.4",
+    "@types/react-lines-ellipsis": "^0.15.1",
+    "classnames": "^2.3.2",
+    "eslint": "8.41.0",
+    "eslint-config-next": "13.4.4",
+    "framer-motion": "^10.12.22",
+    "negotiator": "^0.6.3",
+    "next": "13.4.4",
+    "next-intl": "^2.14.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.1.6"
+    "react-lines-ellipsis": "^0.15.3",
+    "typescript": "5.1.3"
   }
 }

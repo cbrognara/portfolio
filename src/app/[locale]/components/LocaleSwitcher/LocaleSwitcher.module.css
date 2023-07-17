@@ -1,0 +1,40 @@
+.Container {
+  position: relative;
+  cursor: pointer;
+}
+
+.ActiveLanguageContainer {
+  border: 1px #EC4392 solid;
+  border-radius: 7px;
+  padding: 4px 8px 4px 7.5px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Dropdown {
+  box-shadow: 0px 2px 40px rgba(191, 139, 164, 0.8);
+  position: absolute;
+  
+  width: 100%;
+  min-width: min-content;
+  padding: 8px;
+  border-radius: 4px;
+  
+  background-color: #000;
+}
+
+.Dropdown li {
+  display: flex;
+  align-items: center;
+}
+
+.DropdownIcon {
+  margin-top:4px;
+  margin-left:7.5px;
+}
+
+.Hidden {
+  display: none;
+}

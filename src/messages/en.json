@@ -1,0 +1,79 @@
+{
+  "Common": {
+    "localesDropdownAltImage": "Dropdown icon to show click and show available translations",
+    "countryFlag": "USA flag representing english language",
+    "githubIconAlt": "Link to Camila's GitHub",
+    "linkedinIconAlt": "Link to Camila's Linkedin",
+    "instagramIconAlt": "Link to Camila's Instagram",
+    "whatsappIconAlt": "Link to Camila's WhatsApp",
+    "profilePhotoAlt": "Camila's Profile Photo",
+    "projects": {
+      "filmapp": {
+        "coverAlt": "Cover of filmapp with screenshots of the app",
+        "title": "Filmapp",
+        "detailedDescription": "Hosting of movies with search bar and favorite lists",
+        "whatIDidInThisProjectDescription": "Movie list was connected with external API, in order to display available title and poster. In the search bar I enabled the search to be simple considering excerpts from the title, uppercase and lowercase. There is still the possibility for the user to favorite and remove movies from his personal list."
+      },
+      "lemondesignsystem": {
+        "coverAlt": "Design system",
+        "title": "Lemon Energy Design System",
+        "detailedDescription": "On a case to create a design system I tried to do minimal reusable components",
+        "whatIDidInThisProjectDescription": ""
+      },
+      "comparedupe": {
+        "coverAlt": "",
+        "title": "Find make up dupes and compare products",
+        "detailedDescription": "",
+        "whatIDidInThisProjectDescription": ""
+      }
+    },
+    "arrowRightAlt": "Arrow right",
+    "seeDetails": "See details",
+    "seeMoreOnLinkedin": "See more recommendations",
+    "name": "Hi, I'm Camila",
+    "role": "Front End",
+    "developer": "Developer",
+    "portfolio": "Portfolio",
+    "portfolioArrowDownAlt":"Icon of an arrow down",
+    "exploreProjects":"Explore the projects I worked on",
+    "personalProjects": "Personal",
+    "intodesignProjects": "Into Design",
+    "genesisbankProjects": "Genesis Bank",
+    "recommendations": "Recommendations",
+    "linkedinSaleHelpaProfilePhotoAlt": "Profile photo of Random",
+    "linkedinSaleHelpaRole": "Front-End Developer on Random",
+    "linkedinSaleHelpaRecommendation": "<p>lorem ipsum difnieufnijnc</p>",
+    "locales": {
+      "pt": "portuguese",
+      "en": "english"
+    },
+    "mainStack": "Main Stack",
+    "reactIconAlt": "React Icon",
+    "nextIconAlt": "Next.js Icon",
+    "nodeIconAlt": "Node.js Icon",
+    "typescriptIconAlt": "Typescript Icon",
+    "javascriptIconAlt": "Javascript Icon",
+    "doYouNeedADeveloper": "Do you need a developer?",
+    "letsWorkTogether": "Let's work together",
+    "actualOccupationTitle": "actual occupation",
+    "actualOccupation": "Front End Developer at Genesis",
+    "contact": "Contact",
+    "goBackIconAlt": "Go back icon",
+    "goBack": "go back",
+    "artifacts": "Artifacts",
+    "apiSourceCode": "API source code",
+    "appSourceCode": "APP source code",
+    "siteSourceCode": "Site source code",
+    "design": "Design files",
+    "demo": "Demonstration",
+    "whatIDidInThisProject": "What was my role in this project?",
+    "whatsappMessage": "Hi Camila, I found your number on your portfolio site, can we talk?",
+    "readMore": "read more",
+    "readLess": "read less",
+    "noProjectsYet": "I will add my work in this company soon",
+    "downloadCVIconAlt": "Download icon",
+    "downloadCV": "Download CV",
+    "availableIconAlt":"Ícone indicando disponibilidade",
+    "openToWork": "open to work"
+  }
+}

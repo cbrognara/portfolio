@@ -1,0 +1,101 @@
+.Container {
+  margin: auto;
+  max-width: var(--app-max-width);
+  
+  margin-bottom: var(--spacing-between-sections);
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.Container div {
+  margin: auto;
+  max-width: 500px;
+}
+
+.Heading {
+  margin-bottom: var(--spacing-between-titles);
+}
+
+.Title {
+  font-family: var(--font-space-roboto);
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.Subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: var(--font-space-roboto);
+  font-weight: 500;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.Subtitle img {
+  margin-left: 3px;
+}
+
+.Recommendation {
+  display: flex;
+  
+  font-family: var(--font-space-roboto);
+  color: #EC4392;
+}
+
+.Recommendation:not(:last-of-type) {
+  margin-bottom: 40px;
+}
+
+.Recommendation img {
+  margin-right: 8px;
+
+  border: 1px solid #EC4392;
+  border-radius: 50%;
+  padding: 1px;
+}
+
+.Recommendation div p:first-of-type {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.Recommendation div p:nth-child(2) {
+  margin-bottom: 14px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.SeeMoreOnLinkedin {
+  margin: auto;
+  margin-top: 40px;
+  width: max-content;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SeeMoreOnLinkedin p {
+  font-family: var(--font-space-roboto);
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.SeeMoreOnLinkedin img {
+  margin-top: 3px;
+  margin-left: 3px;
+}

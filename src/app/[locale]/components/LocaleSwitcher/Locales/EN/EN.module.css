@@ -1,0 +1,13 @@
+.Text {
+  margin-left: 8px;
+
+  color: #857040;
+  font-weight: 800;
+  font-size: 14px;
+  font-family: var(--font-roboto);
+}
+
+.LinkClickableArea {
+  width: 100%;
+  height: 100%;
+}

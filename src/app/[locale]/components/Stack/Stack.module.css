@@ -1,0 +1,59 @@
+.Container {
+  margin-bottom: var(--spacing-between-sections);
+}
+
+.Title {
+  margin-bottom: var(--spacing-between-titles);
+
+  font-family: var(--font-space-roboto);
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.Technologies {
+  margin: auto;
+  
+  max-width: 245px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  font-family: var(--font-space-roboto);
+  font-weight: 500;
+  font-size: 11px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Technologies:last-of-type {
+  margin-top: 16px;
+}
+
+.Technologies div {
+  min-width: 71px;
+  height: 71px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}
+
+.Technologies div:not(:last-of-type){
+  margin-right: 16px;
+}
+
+.NextJS img {
+  margin-top: 15px;
+}
+
+.NextJS p {
+  margin-top: 11px;
+}
