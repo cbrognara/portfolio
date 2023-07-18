@@ -14,8 +14,8 @@ const DownloadCVButton: React.FC = () => {
   return (
     <Link
       target="_blank"
-      href={`/documents/curriculo-gabrieldissotti-fullstack${locale === 'en' ? '-english' : ''}.pdf`}
-      download="curriculo-gabrieldissotti-fullstack"
+      href={`/documents/curriculo-camilabrognara-frontend${locale === 'en' ? '-english' : ''}.pdf`}
+      download="curriculo-camilabrognara-frontend"
       className={styles.Button}
     >
       <Image

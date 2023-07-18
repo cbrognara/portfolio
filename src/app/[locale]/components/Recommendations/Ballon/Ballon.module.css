@@ -3,7 +3,7 @@
   padding: 8px;
   font-size: 14px;
   font-weight: 500;
-  background: #FFF0D0;
+  background: #DDCDD5;
   border-radius: 10px;
 }
 
@@ -16,7 +16,7 @@
   transform: translateX(-50%);
   border-width: 12px;
   border-style: solid;
-  border-color: transparent transparent #FFF0D0 transparent;
+  border-color: transparent transparent #DDCDD5 transparent;
   transform: rotate(140deg) matrix(-0.12, 0.5, 0.8, 1, 0, 00);
 }
 

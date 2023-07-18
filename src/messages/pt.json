@@ -10,20 +10,21 @@
     "projects": {
       "filmapp": {
         "coverAlt": "Capa do filmapp com telas do app",
-        "title": "Site de hospedagem de filmes",
+        "title": "Filmapp",
         "detailedDescription": "Site de hospedagem de filmes com barra de pesquisa pelo título e lista de favoritados",
         "whatIDidInThisProjectDescription": "A lista de filmes foi conectada com API externa, de forma a exibir título e poster disponíveis. Na barra de busca possibilitei que a pesquisa fosse simples considerando trechos do título, maísculas e minúsculas. Ainda existe a possibilidade do usuário favoritar e remover filmes de sua lista pessoal."
       },
       "lemondesignsystem": {
         "coverAlt": "Design system",
-        "title": "Design System da Lemon Energy",
-        "detailedDescription": "Em um case para construção de design system construí os componentes de forma a serem reutilizáveis em sua mínima forma, aceitando cores, posicionamento de ícones e animações diferentes de acordo com os parâmetros enviados."
+        "title": "Lemon Energy Design System",
+        "detailedDescription": "Case cujo desafio era a elaboração de design system de botões.",
+        "whatIDidInThisProjectDescription": "Com base em um modelo elaborado no figma, trabalhei na construção do design system de um botão default como componente padrão de forma a ser o mais reutilizavel em sua mínima forma, aceitando cores, posicionamento de ícones e animações diferentes de acordo com os parâmetros enviados."
       },
       "comparedupe": {
         "coverAlt": "Capa do Compare-Dupe com telas do site",
-        "title": "Site para comparação de dupes de maquiagem",
-        "detailedDescription": "",
-        "whatIDidInThisProjectDescription": ""
+        "title": "Compare Dupe",
+        "detailedDescription": "Site para comparação de dupes de maquiagem, de forma a encontrar produtos que se assemelham em cor, textura ou função.",
+        "whatIDidInThisProjectDescription": "O mercado nacional de beleza e cuidados pessoais sempre foi expressivo em todas as épocas, nesse momento ele enfrenta mudanças com a chegada do digital. As pessoas estão cada vez mais migrando para a compra online de maquiagem e produtos de cuidados pessoais. Mas a barreira de não poder experientar e/ou ver o produto em sua forma real pode tornar o processo um pouco complicado. Numa tentativa de melhorar essa experiência, encontrei um site americano com a funcionalidade de ajudar pessoas a encontrar produtos semelhantes aos seus favoritos, podendo comparar, através de imagens e comentários de usuários, cores, texturas e efeitos. Mas não encontrei algo semelhante em nosso idioma e/ou listando produtos nacionais. Decidi experientar a ideia de fazer uma versão brasileira."
       }
     },
     "arrowRightAlt": "Seta para direita",
@@ -54,7 +55,7 @@
     "javascriptIconAlt": "Ícone do Javascript",
     "doYouNeedADeveloper": "precisa de um dev?",
     "letsWorkTogether": "Vamos trabalhar juntos",
-    "actualOccupationTitle": "ocupação atual",
+    "actualOccupationTitle": "última ocupação",
     "actualOccupation": "Desenvolvedor Front End na Genesis Bank",
     "contact": "Contato",
     "goBackIconAlt": "Ícone de voltar",

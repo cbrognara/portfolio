@@ -15,7 +15,7 @@ const DoYouNeedADeveloper: React.FC = () => {
     <section id="needADeveloper" className={styles.Container}>
       <h3>{t('doYouNeedADeveloper')}</h3>
 
-      <Link target='_blank' href={`https://www.linkedin.com/in/gabrieldissotti/${locale === 'en' ? '?locale=en_US' : '?locale=pt_BR'}`} >
+      <Link target='_blank' href={`https://www.linkedin.com/in/camilabrognara/${locale === 'en' ? '?locale=en_US' : '?locale=pt_BR'}`} >
         <p>{t('letsWorkTogether')}</p>
         <Image
           src="/icons/arrow-right.svg"

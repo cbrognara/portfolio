@@ -5,7 +5,7 @@
 
 .SocialsAndProfilePhotoGroup {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .Socials {
@@ -27,10 +27,8 @@
 }
 
 .ProfilePhotoImage {
-  margin-left: 80px;
-
-  max-width: 239px;
-  max-height: 275.68px;
+  max-width: 300px;
+  max-height: 280px;
 }
 
 .NameAndRoleGroup {
@@ -83,7 +81,7 @@
   }
 
   .ProfilePhotoImage {
-    margin-left: 40px;
+    /* margin-left: 40px; */
     max-width: unset;
     max-height: unset;
   }

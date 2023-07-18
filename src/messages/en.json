@@ -15,15 +15,15 @@
         "whatIDidInThisProjectDescription": "Movie list was connected with external API, in order to display available title and poster. In the search bar I enabled the search to be simple considering excerpts from the title, uppercase and lowercase. There is still the possibility for the user to favorite and remove movies from his personal list."
       },
       "lemondesignsystem": {
-        "coverAlt": "Design system",
+        "coverAlt": "Cover of Lemon Design system",
         "title": "Lemon Energy Design System",
         "detailedDescription": "On a case to create a design system I tried to do minimal reusable components",
         "whatIDidInThisProjectDescription": ""
       },
       "comparedupe": {
         "coverAlt": "",
-        "title": "Find make up dupes and compare products",
-        "detailedDescription": "",
+        "title": "Compare Dupe",
+        "detailedDescription": "Makeup dupe comparison site to find products that are similar in color, texture or function.",
         "whatIDidInThisProjectDescription": ""
       }
     },
@@ -55,8 +55,8 @@
     "javascriptIconAlt": "Javascript Icon",
     "doYouNeedADeveloper": "Do you need a developer?",
     "letsWorkTogether": "Let's work together",
-    "actualOccupationTitle": "actual occupation",
-    "actualOccupation": "Front End Developer at Genesis",
+    "actualOccupationTitle": "last occupation",
+    "actualOccupation": "Front End Developer at Genesis Bank",
     "contact": "Contact",
     "goBackIconAlt": "Go back icon",
     "goBack": "go back",

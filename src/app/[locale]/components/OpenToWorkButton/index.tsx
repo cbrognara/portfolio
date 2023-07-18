@@ -12,7 +12,7 @@ const OpenToWorkButton: React.FC = () => {
   const locale = useLocale()
 
   return (
-    <Link className={styles.Button} target='_blank' href={`https://www.linkedin.com/in/gabrieldissotti/${locale === 'en' ? '?locale=en_US' : '?locale=pt_BR'}`}>
+    <Link className={styles.Button} target='_blank' href={`https://www.linkedin.com/in/camilabrognara/${locale === 'en' ? '?locale=en_US' : '?locale=pt_BR'}`}>
       <Image
         src="/icons/available.svg"
         height={12.13}

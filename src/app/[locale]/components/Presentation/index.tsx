@@ -36,7 +36,7 @@ export default function Presentation() {
           <Image
             src="/images/profile-photo.jpeg"
             height={isMobile ? 275.68 : 402.35 }
-            width={isMobile ? 239 : 350 }
+            width={isMobile ? 239 : 420 }
             quality={100}
             alt={t('profilePhotoAlt')}
             className={styles.ProfilePhotoImage}
