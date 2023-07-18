@@ -5,9 +5,9 @@
 .Title {
   margin-bottom: var(--spacing-between-titles);
 
-  font-family: var(--font-space-roboto);
-  font-weight: 500;
-  font-size: 14px;
+  font-family: var(--font-roboto-mono);
+  font-weight: 400;
+  font-size: 22px;
   text-align: center;
   letter-spacing: 0.125em;
   text-transform: uppercase;
@@ -23,8 +23,8 @@
   flex-wrap: wrap;
   justify-content: center;
 
-  font-family: var(--font-space-roboto);
-  font-weight: 500;
+  font-family: var(--font-roboto-mono);
+  font-weight: 400;
   font-size: 11px;
   text-align: center;
   color: #ffffff;

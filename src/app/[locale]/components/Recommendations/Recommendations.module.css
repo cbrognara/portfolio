@@ -15,9 +15,9 @@
 }
 
 .Title {
-  font-family: var(--font-space-roboto);
-  font-weight: 500;
-  font-size: 16px;
+  font-family: var(--font-roboto-mono);
+  font-weight: 400;
+  font-size: 24px;
   text-align: center;
   letter-spacing: 0.125em;
   text-transform: uppercase;
@@ -30,9 +30,9 @@
   justify-content: center;
   align-items: center;
 
-  font-family: var(--font-space-roboto);
-  font-weight: 500;
-  font-size: 14px;
+  font-family: var(--font-roboto-mono);
+  font-weight: 400;
+  font-size: 18px;
   text-align: center;
   letter-spacing: 0.125em;
   text-transform: uppercase;
@@ -47,7 +47,7 @@
 .Recommendation {
   display: flex;
   
-  font-family: var(--font-space-roboto);
+  font-family: var(--font-roboto-mono);
   color: #EC4392;
 }
 
@@ -57,21 +57,21 @@
 
 .Recommendation img {
   margin-right: 8px;
-  width: 84px;
-  height: 84px;
   border: 1px solid #EC4392;
   border-radius: 50%;
   padding: 1px;
+  object-fit: cover;
+  object-position: 20% 10%;
 }
 
 .Recommendation div p:first-of-type {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 700;
 }
 
 .Recommendation div p:nth-child(2) {
   margin-bottom: 14px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
 }
 
@@ -86,9 +86,9 @@
 }
 
 .SeeMoreOnLinkedin p {
-  font-family: var(--font-space-roboto);
-  font-weight: 500;
-  font-size: 16px;
+  font-family: var(--font-roboto-mono);
+  font-weight: 400;
+  font-size: 18px;
   color: #ffffff;
   text-align: center;
   text-decoration: underline;
@@ -97,4 +97,32 @@
 .SeeMoreOnLinkedin img {
   margin-top: 3px;
   margin-left: 3px;
+}
+
+@media (max-width: 960px) {
+  .Title {
+    font-size: 22px;
+  }
+
+  .Subtitle {
+    font-size: 16px;
+  }
+  
+  .Recommendation img {
+    height: 72px;
+    width: 72px;
+    margin-left: 18px;
+  }
+
+  .Recommendation div p:first-of-type {
+    font-size: 16px;
+  }
+
+  .Recommendation div p:nth-child(2) {
+    font-size: 12px;
+  }
+
+  .SeeMoreOnLinkedin p {
+    font-size: 16px;
+  }
 }

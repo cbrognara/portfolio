@@ -1,5 +1,5 @@
 .Presentation {
-  padding: 0px 32px 40px;
+  padding: 18px 32px 24px;
   height: 745px;
 }
 
@@ -10,7 +10,6 @@
 
 .Socials {
   margin-bottom: 70px;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,17 +21,18 @@
 
 .ProfilePhoto {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: row;
   align-items: center;
+  gap: 32px;
 }
 
 .ProfilePhotoImage {
-  max-width: 300px;
-  max-height: 280px;
+  /* width: 100%; */
+  /* max-height: 280px; */
 }
 
 .NameAndRoleGroup {
-  margin-right:8px;
+  margin-right: 8px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -40,65 +40,66 @@
 
 .Name {
   margin-top: 48px;
-
   text-align: right;
-
-  font-family: var(--font-space-roboto);
-  font-weight: 500;
+  font-family: var(--font-roboto-mono);
+  font-weight: 400;
   font-size: 40px;
   color: #fff;
 }
 
 .Role {
   margin-top: 8px;
-
   text-align: right;
-  font-family: var(--font-space-roboto);
-  font-weight: 500;
-  font-size: 16px;
+  font-family: var(--font-roboto-mono);
+  font-weight: 400;
+  font-size: 22px;
   color: #fff;
 }
 
 .Role span {
-  padding-right: 6px;
-  padding-left: 6px;
+  margin-left: 8px;
   background-image: url('/images/brush.png');
   background-repeat: no-repeat;
-  background-size: 130px;
+  background-size: 128px;
   background-position: -1px;
 }
 
-@media (min-width: 960px) {
+@media (max-width: 960px) {
+  .SocialsAndProfilePhotoGroup {
+    display: flex;
+    flex-direction: column;
+  }
+
   .Presentation {
     height: 100vh;
-    padding: 16% 0px 40px;
+    padding: 16px 8px 40px 8px;
   }
 
   .ProfilePhoto {
     display: flex;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .ProfilePhotoImage {
-    /* margin-left: 40px; */
-    max-width: unset;
-    max-height: unset;
+    margin: 16px 8px;
   }
 
   .Socials {
-    margin-bottom: 0;
-    margin-top: 64px;
+   display: flex;
+   gap: 8px;
+   flex-direction: row;
+   margin-bottom: 0px;
   }
 
   .Name {
-    font-size: 64px;
+    font-size: 26px;
     max-width: 437px;
+    margin-top: 0px;
   }
 
   .Role {
     font-size: 24px;
-    margin-left: 5px;
   }
 
   .Role, .Name {
@@ -114,3 +115,4 @@
     background-size: 132px;
   }
 }
+

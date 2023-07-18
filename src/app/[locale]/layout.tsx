@@ -1,6 +1,6 @@
 import './globals.css'
 
-import { Roboto} from 'next/font/google';
+import { Roboto_Mono} from 'next/font/google';
 
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -10,12 +10,11 @@ import classNames from 'classnames';
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next'
 
-const roboto = Roboto({
-  weight: ['400', '700','900'],
+export const roboto_mono = Roboto_Mono({
+  weight: ['100', '400','700'],
   subsets: ['latin'],
-  variable: '--font-inter',
+  variable: '--font-roboto-mono',
 });
-
 
 export const metadata: Metadata = {
   title: 'Camila | Portfólio',
@@ -38,7 +37,7 @@ export default async function RootLayout({ children, params }: { children: React
 
   return (
     <html lang={params.locale}>
-      <body className={classNames(roboto.variable)}>
+      <body className={classNames(roboto_mono.variable)}>
         <NextIntlClientProvider locale={params.locale} messages={messages}>
           <Header />
           

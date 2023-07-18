@@ -40,8 +40,8 @@
 
 .PortfolioLink h3 {
   margin-bottom: 16px;
-  font-family: var(--font-space-roboto);
-  font-weight: 500;
+  font-family: var(--font-roboto-mono);
+  font-weight: 400;
   font-size: 14px;
   text-align: center;
   letter-spacing: 0.125em;
@@ -52,8 +52,8 @@
 .ExploreProjects {
   margin-bottom: 72px;
 
-  font-family: var(--font-space-roboto);
-  font-weight: 500;
+  font-family: var(--font-roboto-mono);
+  font-weight: 400;
   font-size: 16px;
   line-height: 18px;
   text-align: center;
@@ -61,7 +61,7 @@
 }
 
 .Companies {
-  margin: 0 24px 48px;
+  margin: 0 0 48px;
   
   cursor: grab;
   overflow: visible;
@@ -69,7 +69,7 @@
 
 .Companies ul {
   display: flex;
-  justify-content: space-between;
+  gap: 28px;
 }
 
 .Companies ul li {
@@ -77,9 +77,9 @@
   flex-direction: column;
   align-items: center;
 
-  font-family: var(--font-space-roboto);
+  font-family: var(--font-roboto-mono);
   font-weight: 700;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
   color: #ffffff;
 }
@@ -200,7 +200,7 @@
 
 @media (min-width: 960px) {
   .Companies {
-    margin-left: unset;
+    margin-left: 18px;
     margin-right: unset;
     cursor: unset;
   }
@@ -214,12 +214,19 @@
   }
 
   .Companies ul li:not(:last-of-type) {
-    margin-right: 16px;
+    /* margin-right: 16px; */
   }
 
   .ExploreProjects {
     margin-bottom: 80px;
 
     font-size: 24px;
+  }
+}
+
+@media (max-width: 960px) {
+  .PortfolioLink h3 {
+    margin-top: 32px;
+    margin-bottom: 16px;
   }
 }

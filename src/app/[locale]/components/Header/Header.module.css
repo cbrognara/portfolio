@@ -18,3 +18,10 @@
 .Header > img {
   opacity: 0;
 }
+
+@media (max-width: 960px) {
+  .Header {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}

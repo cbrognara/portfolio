@@ -10,8 +10,8 @@
   background: #222225;
   box-shadow: 0px 2px 13px rgba(55, 55, 55, 0.16);
   border-radius: 25px;
-  font-family: var(--font-space-roboto);
-  font-weight: 500;
+  font-family: var(--font-roboto-mono);
+  font-weight: 400;
   font-size: 14px;
   color: #fff;
   transition-property: scale, box-shadow;

@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
 
         <div className={styles.Socials}>
           <Socials />
-          <DownloadCVButton />
+          {/* <DownloadCVButton /> */}
         </div>
       </footer>
     </>

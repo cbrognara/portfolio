@@ -1,14 +1,14 @@
 .Container{
   padding-bottom: var(--spacing-between-sections);
 
-  font-family: var(--font-space-roboto);
+  font-family: var(--font-roboto-mono);
   text-align: center;
   color: #ffffff;
 }
 
 .Container h3 {
-  font-weight: 500;
-  font-size: 14px;
+  font-weight: 400;
+  font-size: 18px;
   letter-spacing: 0.125em;
   text-transform: uppercase;
 }
@@ -30,4 +30,14 @@
 .Container a img {
   margin-top: 4px;
   margin-left: 6px;
+}
+
+@media (max-width: 960px) {
+  .Container h3 {
+    font-size: 16px;
+  }
+
+  .Container a p {
+    font-size: 22px;
+  }
 }

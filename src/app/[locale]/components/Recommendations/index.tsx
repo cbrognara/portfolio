@@ -19,8 +19,8 @@ const Recommendations: React.FC = () => {
           from
           <Image
             src="/icons/linkedin.svg"
-            width={11}
-            height={11}
+            width={18}
+            height={18}
             alt={t('linkedinIconAlt')}
           />
         </span>
@@ -29,8 +29,8 @@ const Recommendations: React.FC = () => {
         <article className={styles.Recommendation}>
           <Image
             src="/images/linkedin-sales.jpg"
-            height={40}
-            width={40}
+            height={108}
+            width={108}
             alt={t('linkedinSaleHelpaProfilePhotoAlt')}
           />
           <div>
@@ -44,6 +44,24 @@ const Recommendations: React.FC = () => {
           </div>
         </article>
 
+        <article className={styles.Recommendation}>
+          <Image
+            src="/images/alexandre.jpg"
+            height={108}
+            width={108}
+            alt={t('alexandreHelpaProfilePhotoAlt')}
+          />
+          <div>
+            <p>Alexandre Schrammel</p>
+            <p>{t('alexandreHelpaRole')}</p>
+            <Ballon>
+              <>
+                {t.rich('alexandreHelpaRecommendation', { p: (chunks) => (<span>{chunks}<br /><br /></span>) })}
+              </>
+            </Ballon>
+          </div>
+        </article>
+
       </div>
 
       <Link target='_blank' className={styles.SeeMoreOnLinkedin} href={`https://www.linkedin.com/in/camilabrognara/${locale === 'en' ? '?locale=en_US' : '?locale=pt_BR'}`} locale={locale}>
@@ -52,8 +70,8 @@ const Recommendations: React.FC = () => {
         </p>
         <Image
           src="/icons/arrow-right.svg"
-          height={15}
-          width={15}
+          height={18}
+          width={18}
           alt={t('arrowRightAlt')}
         />
       </Link>
