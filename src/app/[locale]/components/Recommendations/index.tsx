@@ -34,7 +34,7 @@ const Recommendations: React.FC = () => {
             alt={t('linkedinSaleHelpaProfilePhotoAlt')}
           />
           <div>
-            <p>Pessoa random</p>
+            <p>Pessoa Teste</p>
             <p>{t('linkedinSaleHelpaRole')}</p>
             <Ballon>
               <>
