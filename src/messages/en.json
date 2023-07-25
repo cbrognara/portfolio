@@ -21,10 +21,16 @@
         "whatIDidInThisProjectDescription": ""
       },
       "comparedupe": {
-        "coverAlt": "",
+        "coverAlt": "Cover of Compare Dupe",
         "title": "Compare Dupe",
         "detailedDescription": "Makeup dupe comparison site to find products that are similar in color, texture or function.",
         "whatIDidInThisProjectDescription": ""
+      },
+      "capputeeno": {
+        "coverAlt": "Cover of Capputeeno",
+        "title": "Capputeeno",
+        "detailedDescription": "Rocketseat front end challenge",
+        "whatIDidInThisProjectDescription": "Create a e-commerce with searchbar, list of products cart, following a design on figma, using local storage, conecting API GraphQL."
       }
     },
     "arrowRightAlt": "Arrow right",

@@ -35,7 +35,7 @@
   padding: 2px 4px;
   border-radius: 3px;
 
-  max-width: min-content;
+  /* max-width: min-content; */
   background: #000;
   font-family: var(--font-roboto-mono);
   font-weight: 700;

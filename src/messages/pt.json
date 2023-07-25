@@ -25,6 +25,12 @@
         "title": "Compare Dupe",
         "detailedDescription": "Site para comparação de dupes de maquiagem, de forma a encontrar produtos que se assemelham em cor, textura ou função.",
         "whatIDidInThisProjectDescription": "O mercado nacional de beleza e cuidados pessoais sempre foi expressivo em todas as épocas, nesse momento ele enfrenta mudanças com a chegada do digital. As pessoas estão cada vez mais migrando para a compra online de maquiagem e produtos de cuidados pessoais. Mas a barreira de não poder experientar e/ou ver o produto em sua forma real pode tornar o processo um pouco complicado. Numa tentativa de melhorar essa experiência, encontrei um site americano com a funcionalidade de ajudar pessoas a encontrar produtos semelhantes aos seus favoritos, podendo comparar, através de imagens e comentários de usuários, cores, texturas e efeitos. Mas não encontrei algo semelhante em nosso idioma e/ou listando produtos nacionais. Decidi experientar a ideia de fazer uma versão brasileira."
+      },
+      "capputeeno": {
+        "coverAlt": "Capa do Capputeeno",
+        "title": "Capputeeno",
+        "detailedDescription": "Rocketseat desafio front end",
+        "whatIDidInThisProjectDescription": "Criar um e-commerce para venda de canecas e camisetas baseando-se em um protótipo no figma, uso de local storage e consumo de api GraphQL."
       }
     },
     "arrowRightAlt": "Seta para direita",

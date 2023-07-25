@@ -38,6 +38,15 @@ const companies: Company[] = [
         apiSourceCode: "",
         siteSourceCode: "",
         design: "https://www.figma.com/file/B4tTHRXbYsFcb3OIusDaTZ/compare-dupe?type=design&mode=design&t=y9gzTwCzujmCXRc6-0"
+      },
+      {
+        id: 'capputeeno',
+        tags: [
+          'NextJS', 'TypeScript', 'Styled Comp.', 'GraphQL'
+        ],
+        apiSourceCode: "https://github.com/Rocketseat/frontend-challenge",
+        siteSourceCode: "https://github.com/cbrognara/capputeeno",
+        design: "https://www.figma.com/file/rET9F2CeUEJdiVN7JRu993/E-commerce---capputeeno?type=design&node-id=680-6449&mode=design&t=xKhfMUy3RNwZB1BZ-0"
       }
     ]
   },
