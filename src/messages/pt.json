@@ -30,7 +30,7 @@
         "coverAlt": "Capa do Capputeeno",
         "title": "Capputeeno",
         "detailedDescription": "Rocketseat desafio front end",
-        "whatIDidInThisProjectDescription": "Criar um e-commerce para venda de canecas e camisetas baseando-se em um protótipo no figma, uso de local storage e consumo de api GraphQL."
+        "whatIDidInThisProjectDescription": "Criar um e-commerce para venda de canecas e camisetas baseando-se em um protótipo no figma, uso de local storage e consumo de api GraphQL. Também utilizei styled components, criei uma barra de busca pelo nome do produto e trabalhei na construção de diferentes tipos filtros de busca."
       }
     },
     "arrowRightAlt": "Seta para direita",
@@ -46,12 +46,9 @@
     "intodesignProjects": "Into Design",
     "genesisbankProjects": "Genesis Bank",
     "recommendations": "Recomendações",
-    "linkedinSaleHelpaProfilePhotoAlt": "Foto de perfil do Random",
-    "linkedinSaleHelpaRole": "Desenvolvedor Front-End na Random",
-    "linkedinSaleHelpaRecommendation": "<p>lorem ipsum difnieufnijnc</p>",
     "alexandreProfilePhotoAlt": "Foto de perfil de Alexandre",
     "alexandreHelpaRole": "Founder e CEO na IntoDesign",
-    "alexandreHelpaRecommendation": "<p>lorem ipsum difnieufnijnc</p>",
+    "alexandreHelpaRecommendation": "<p>É com grande satisfação que recomendo a Camila. Durante o tempo em que trabalhamos juntos, ela sempre demonstra um comprometimento exemplar com a qualidade e eficiência do trabalho. Sua evolução foi impressionante em um curto período de tempo, sempre entregando soluções inovadoras e bem estruturadas. Além disso, sua atitude proativa e capacidade de trabalhar bem em equipe contribuíram significativamente para o sucesso dos projetos. Sem dúvida, a Camila é uma profissional talentosa e confiável, e não hesito em recomendá-la para qualquer desafio na área de desenvolvimento de software.</p>",
     "locales": {
       "pt": "português",
       "en": "inglês"
