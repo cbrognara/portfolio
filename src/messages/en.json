@@ -31,6 +31,12 @@
         "title": "Capputeeno",
         "detailedDescription": "Rocketseat front end challenge",
         "whatIDidInThisProjectDescription": "Create a e-commerce with searchbar, list of products cart, following a design on figma, using local storage, conecting API GraphQL."
+      },
+      "spotify": {
+        "coverAlt": "Cover of Spotify Clone",
+        "title": "Spotify",
+        "detailedDescription": "Spotify interface clone with tailwind",
+        "whatIDidInThisProjectDescription": "As a experiment how to use Tailwind I cloned Spotify interface. As soon as possible I will convert to components which makes the code better."
       }
     },
     "arrowRightAlt": "Arrow right",

@@ -26,24 +26,7 @@ const Recommendations: React.FC = () => {
         </span>
       </hgroup>
       <div>
-        <article className={styles.Recommendation}>
-          <Image
-            src="/images/linkedin-sales.jpg"
-            height={108}
-            width={108}
-            alt={t('linkedinSaleHelpaProfilePhotoAlt')}
-          />
-          <div>
-            <p>Pessoa Teste</p>
-            <p>{t('linkedinSaleHelpaRole')}</p>
-            <Ballon>
-              <>
-                {t.rich('linkedinSaleHelpaRecommendation', { p: (chunks) => (<span>{chunks}<br /><br /></span>) })}
-              </>
-            </Ballon>
-          </div>
-        </article>
-
+        
         <article className={styles.Recommendation}>
           <Image
             src="/images/alexandre.jpg"

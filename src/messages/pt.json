@@ -31,6 +31,12 @@
         "title": "Capputeeno",
         "detailedDescription": "Rocketseat desafio front end",
         "whatIDidInThisProjectDescription": "Criar um e-commerce para venda de canecas e camisetas baseando-se em um protótipo no figma, uso de local storage e consumo de api GraphQL. Também utilizei styled components, criei uma barra de busca pelo nome do produto e trabalhei na construção de diferentes tipos filtros de busca."
+      },
+      "spotify": {
+        "coverAlt": "Capa do Spotify Clone",
+        "title": "Spotify",
+        "detailedDescription": "Spotify clone da interface com tailwind",
+        "whatIDidInThisProjectDescription": "De forma a experimentar o uso puro de tailwind eu clonei a interface do Spotify. O próximo passo para melhorar o projeto seria converter em componentes, de forma a deixar o código mais limpo e sem repetições."
       }
     },
     "arrowRightAlt": "Seta para direita",
