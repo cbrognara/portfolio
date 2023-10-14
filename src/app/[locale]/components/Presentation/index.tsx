@@ -34,7 +34,7 @@ export default function Presentation() {
           </div>
 
           <Image
-            src="/images/profile-photo.jpeg"
+            src="/images/profile-photo.jpg"
             height={isMobile ? 226 : 326 }
             width={isMobile ? 340 : 540 }
             quality={100}
